@@ -26,4 +26,4 @@ We'd like your app to have a simple-to-use interface that includes the following
 
 | First Name | Last Name  | Email                  |
 | ---------- | ---------- | ---------------------- | 
-| Eric       | Tan        | etan32@my.bcit.ca      | 
+| Eric       | Tan        | etan34@my.bcit.ca      | 
