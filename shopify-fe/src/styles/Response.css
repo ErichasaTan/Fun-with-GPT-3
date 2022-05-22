@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+span {
+  font-weight: 700;
+}
+
+.response_container {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px #c0c0c0;
+  background-color: rgba(248, 248, 250, 0.4);
+  overflow: hidden;
+}
+
+.response_user-prompt {
+  justify-content: flex-start;
+  font-size: 1.25em;
+  padding: 12px;
+}
+
+.response-ai {
+  font-family: "Space Mono", monospace;
+  justify-content: flex-start;
+  font-size: 1.25em;
+  padding: 12px;
+}

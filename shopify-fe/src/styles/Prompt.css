@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+.prompt_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #63942e;
+  margin: 10px auto;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.prompt_form {
+  padding: 32px;
+}
+
+.wave {
+  display: inline-block;
+  animation: animate-wave 500ms infinite ease-in-out;
+}
+
+@keyframes animate-wave {
+  0% {
+    transform: rotate();
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.prompt_title {
+  display: block;
+  color: #242424;
+  font-size: 2em;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.prompt_textbox {
+  display: block;
+  width: 100%;
+  font-size: 1.25em;
+  font-style: italic;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.prompt_button {
+  background-color: #96bf48;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: white;
+  transition: all 300ms ease;
+  margin-top: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  font-size: 1.15em;
+}
+
+.prompt_button:hover {
+  background-color: #a1e126;
+}
